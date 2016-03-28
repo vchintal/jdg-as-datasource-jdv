@@ -1,0 +1,18 @@
+package proto_files;
+
+/* @Indexed */
+message Person {
+
+    /* @IndexedField */
+    required int64 id=1; 
+
+    /* @IndexedField */
+    required string firstName=2; 
+
+    /* @IndexedField */
+    required string lastName=3; 
+    
+    /* @IndexedField */
+    required int32 age=4; 
+
+}

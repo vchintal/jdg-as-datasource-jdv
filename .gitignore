@@ -1,0 +1,7 @@
+*.zip
+target
+.classpath
+.settings
+.project
+*.out
+*.err

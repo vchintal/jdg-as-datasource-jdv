@@ -1,0 +1,1 @@
+/subsystem=infinispan/cache-container=clustered/distributed-cache=personCache:add(owners=2,mode=SYNC)
