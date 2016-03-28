@@ -10,3 +10,14 @@
 * Download the **JDG 6.4 Remote Client EAP Modules** binary as mentioned in [binaries/README.md](binaries/README.md) 
 * Run `./install.sh` in the root folder of the project
 
+## Testing
+
+* Install and use __Squirrel SQL Client__ as described [here](http://blog.everythingjboss.org/articles/Using-Squirrel-JDV/)
+* Use the JDBC connection string: `jdbc:teiid:People@mm://localhost:31100` (since the JDV server starts at an port-offset of 100)
+* Run the following queries and enjoy!
+
+```sql
+insert into People.Person (id,firstName,lastName,age) values (1,'Bill', 'Clinton', 69);
+select * from People.Person;
+```
+
