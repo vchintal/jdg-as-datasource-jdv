@@ -4,7 +4,7 @@
         <resource-root path="person-pojo.jar" />
     </resources>
     <dependencies>
-            <module name="org.infinispan.client.hotrod" slot="jdg-6.4" optional="true" export="true" />
-            <module name="org.infinispan.protostream" slot="jdg-6.4" export="true" />
+            <module name="org.infinispan.client.hotrod" slot="jdg-6.6" optional="true" export="true" />
+            <module name="org.infinispan.protostream" slot="jdg-6.6" export="true" />
     </dependencies>
 </module>

@@ -7,7 +7,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <infinispan.version>6.3.0.Final-redhat-5</infinispan.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <infinispan.version>6.4.0.Final-redhat-4</infinispan.version>
     </properties>
 
     <dependencies>
@@ -23,20 +25,8 @@
         </dependency>
     </dependencies>
     <build>
-        <!-- Set the name of the war, used as the context root when the app is 
-            deployed -->
         <finalName>person-pojo</finalName>
         <plugins>
-            <!-- Compiler plugin enforces Java 1.7 compatibility and activates annotation 
-                processors -->
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>

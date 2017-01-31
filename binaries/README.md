@@ -1,1 +1,1 @@
-Download the binary [jboss-datagrid-6.4.0-eap-modules-remote-java-client.zip](https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=35303) from Red Hat Customer Portal for JDG 6.4 and place it in this folder
+Download the binary [jboss-datagrid-6.6.1-eap-modules-remote-java-client.zip ](https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=46581&product=data.grid) from Red Hat Customer Portal for JDG 6.6.1 and place it in this folder
